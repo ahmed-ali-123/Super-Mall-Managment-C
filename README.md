@@ -3,13 +3,17 @@
 ## Project Description
 The Super Mall Management System is a console-based application developed using the C programming language for the Programming Fundamentals course. It manages parking, grocery inventory, food court operations, and mall analytics.
 
-## Group Members:
-1	Muqaddas	CT-26270
-2	Aleena Salman	CT-26260
-3	Ahmed Ali	CT-26290
-4	Syeda Rania Irfan	CT-26258
+## Group Members
+
+| No. | Name | Roll Number |
+|---|---|---|
+| 1 | Muqaddas | CT-26270 |
+| 2 | Ahmed Ali | CT-26290 |
+| 3 | Aleena Salman | CT-26260 |
+| 4 | Syeda Rania Irfan | CT-26258 |
 
 ## Features
+
 - Parking management
 - Grocery inventory management
 - Add, update, search, and display grocery items
@@ -29,7 +33,7 @@ gcc main.c system_utils.c "parking (1).c" "manage_grocery (3).c" "floor2analytic
 
 ```powershell
 .\supermall.exe
-```
+
 
 ## Sample Input and Output
 
@@ -65,6 +69,7 @@ Enter your choice:
 - Searching and Sorting
 
 ## Folder Structure
+
 ```text
 Super-Mall-Management-C/
 │
