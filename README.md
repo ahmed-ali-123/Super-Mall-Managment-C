@@ -1,29 +1,58 @@
 # Super Mall Management System
 
-## Project Description
-The Super Mall Management System is a console-based application developed using the C programming language for the Programming Fundamentals course. It manages parking, grocery inventory, food court operations, and mall analytics.
+## 1. Project Description
 
-## Group Members
+The **Super Mall Management System** is a console-based application developed using the C programming language as part of the Programming Fundamentals course at NED University.
 
-| No. | Name | Roll Number |
+The system manages different operations of a shopping mall, including parking management, grocery inventory, food court operations, and mall analytics.
+
+## 2. Group Members
+
+| No. | Student Name | Roll Number |
 |---|---|---|
-| 1 | Muqaddas | CT-26270 |
-| 2 | Ahmed Ali | CT-26290 |
-| 3 | Aleena Salman | CT-26260 |
-| 4 | Syeda Rania Irfan | CT-26258 |
+| 1 | [Muqaddas] | [CT-CT-26270] |
+| 2 | [Ahmed Ali] | [CT-26290] |
+| 3 | [Aleena Salman] | [CT-26260] |
+| 4 | [Syeda Rania Irfan] | [CT-26258] |
 
-## Features
+## 3. Features
 
-- Parking management
-- Grocery inventory management
-- Add, update, search, and display grocery items
-- Food court management
-- Mall analytics
-- Input validation
+### Parking Management
+- Display parking slots.
+- Park vehicles.
+- Release parking slots.
+- Manage parking availability.
 
-## How to Compile and Run
+### Grocery Management
+- Add grocery items.
+- Update grocery stock.
+- Display grocery inventory.
+- Search grocery items.
+- Dynamic inventory management.
+
+### Food Court Management
+- Manage food court operations.
+
+### Mall Analytics
+- Sort brand information.
+- Search for brands.
+- Calculate discounts using recursion.
+
+### Input Validation
+- Validate user input.
+- Handle invalid menu choices.
+- Prevent incorrect data entry.
+
+## 4. How to Compile and Run
+
+### Requirements
+- GCC Compiler
+- Visual Studio Code
+- C Programming Environment
 
 ### Compile
+
+Open the terminal inside the source code folder and compile:
 
 ```bash
 gcc main.c system_utils.c "parking (1).c" "manage_grocery (3).c" "floor2analytics (4).c" food_court.c -o supermall
@@ -33,18 +62,30 @@ gcc main.c system_utils.c "parking (1).c" "manage_grocery (3).c" "floor2analytic
 
 ```powershell
 .\supermall.exe
+```
 
+### Run on Linux
 
-## Sample Input and Output
+```bash
+./supermall
+```
+
+**Note:** Ensure the filenames match the actual files in the Source Code folder.
+
+## 5. Sample Input and Output
 
 ### Sample Input
+
 ```text
 Enter your choice: 1
 ```
 
 ### Sample Output
+
 ```text
-SUPER MALL MANAGEMENT SYSTEM
+================================
+   SUPER MALL MANAGEMENT SYSTEM
+================================
 
 1. Parking Management
 2. Grocery Management
@@ -55,7 +96,9 @@ SUPER MALL MANAGEMENT SYSTEM
 Enter your choice:
 ```
 
-## PF Concepts Used
+*Sample output is illustrative; actual output depends on the program.*
+
+## 6. Programming Fundamentals Concepts Used
 
 - Variables and Data Types
 - Conditional Statements
@@ -67,29 +110,40 @@ Enter your choice:
 - Dynamic Memory Allocation (malloc, realloc, free)
 - Recursion
 - Searching and Sorting
+- Input Validation
 
-## Folder Structure
+## 7. Folder Structure
 
 ```text
 Super-Mall-Management-C/
 │
-├── README.md
-└── source_code/
-    ├── main.c
-    ├── common.h
-    ├── ui.h
-    ├── system_utils.c
-    ├── parking (1).c
-    ├── manage_grocery (3).c
-    ├── floor2analytics (4).c
-    └── food_court.c
+├── Flowchart/
+│
+├── Screenshots/
+│
+├── Source Code/
+│   └── SuperMallSystem_new/
+│       ├── main.c
+│       ├── common.h
+│       ├── ui.h
+│       └── Other source files
+│
+├── CT175_CCAReport_SuperMallSystemfinal.pdf
+│
+└── README.md
 ```
 
-## Project Information
+## 8. Project Information
 
-- Course: Programming Fundamentals
-- Language: C
-- Interface: Command Line Interface (CLI)
-- Compiler: GCC
+- **Project:** Super Mall Management System
+- **Course:** Programming Fundamentals (PF)
+- **Course Code:** CT-175
+- **University:** NED University
+- **Programming Language:** C
+- **Interface:** Command Line Interface (CLI)
+- **Compiler:** GCC
+- **Project Type:** Group Project
 
-Developed as a group project.
+---
+
+Developed as part of the Programming Fundamentals course.
