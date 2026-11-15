@@ -10,10 +10,10 @@ The system manages different operations of a shopping mall, including parking ma
 
 | No. | Student Name | Roll Number |
 |---|---|---|
-| 1 | [Muqaddas] | [CT-CT-26270] |
-| 2 | [Ahmed Ali] | [CT-26290] |
-| 3 | [Aleena Salman] | [CT-26260] |
-| 4 | [Syeda Rania Irfan] | [CT-26258] |
+| 1 | Muqaddas | CT-26270 |
+| 2 | Ahmed Ali | CT-26290 |
+| 3 | Aleena Salman | CT-26260 |
+| 4 | Syeda Rania Irfan | CT-26258 |
 
 ## 3. Features
 
